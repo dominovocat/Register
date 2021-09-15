@@ -1,0 +1,66 @@
+body {
+  background-color: grey;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 400px;
+  min-height: 50vh;
+  margin: auto;
+  background-color: #fff;
+  border: 2px solid red;
+  text-align: center;
+}
+h1{
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.names {
+  width: 160px;
+  height: 30px;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.inp {
+  height: 30px;
+}
+.other {
+  text-align: left;
+}
+.first-link{
+  text-decoration: none;
+}
+.check {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 15px;
+  display: inline;
+}
+.button {
+  width: 92%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 40px;
+  background-color: rgb(14, 185, 14);
+  color: white;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.link{
+  color:white;
+}
