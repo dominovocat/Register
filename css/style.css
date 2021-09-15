@@ -1,5 +1,6 @@
 body {
   background-color: grey;
+  margin-top: 10vh;
 }
 .main {
   display: flex;
