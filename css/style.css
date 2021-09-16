@@ -1,46 +1,56 @@
-body {
+:root {
   background-color: grey;
   margin-top: 10vh;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   max-width: 400px;
-  min-height: 50vh;
+  width: 100%;
+  min-width: 320px;
+  max-height: 100vh;
   margin: auto;
   background-color: #fff;
-  border: 2px solid red;
   text-align: center;
 }
-.register::before{
-  content: '';
-  display: inline-block;
-  vertical-align: middle;
-  width: 130px;
-  height: 2px;
-  background-color: grey;
-}
+.register::before,
 .register::after{
   content: '';
   display: inline-block;
   vertical-align: middle;
-  width: 130px;
+  width: 120px;
   height: 2px;
-  background-color: grey;
+  background-color: rgb(201, 201, 201);
+  margin: 8px;
 }
 h1{
   text-transform: capitalize;
   font-size: 30px;
+  margin: 10px;
+  overflow:hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.info{
+  margin: 10px;
+  padding: 5px;
 }
 .name {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 10px;
 }
 .names {
-  width: 160px;
+  width: 47%;
   height: 30px;
+  padding: 10px;
 }
 label {
   display: flex;
@@ -49,6 +59,7 @@ label {
 }
 .inp {
   height: 30px;
+  padding: 10px;
 }
 .other {
   text-align: left;
@@ -77,6 +88,7 @@ label {
   align-items: center;
   justify-content: center;
   color: white;
+  margin: 10px;
 }
 .link{
   color:white;
