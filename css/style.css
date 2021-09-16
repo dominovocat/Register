@@ -14,6 +14,7 @@
   justify-content: space-between;
   max-width: 400px;
   width: 100%;
+  height: 410px;
   min-width: 320px;
   max-height: 100vh;
   margin: auto;
@@ -87,6 +88,7 @@ label {
   color: white;
   text-transform: capitalize;
   font-size: 18px;
+  border-color: greenyellow;
 }
 .accept {
   font-size: 15px;
